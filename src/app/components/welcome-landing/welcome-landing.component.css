@@ -3,12 +3,12 @@
     width: 100%;
     height: 100vh;
     margin: 0;
-    display: flex; /* para alinhar conteúdo */
-    flex-direction: column; /* um abaixo do outro */
-    align-items: center; /* centraliza na horizontal */
-    justify-content: center; /* centraliza na vertical */
-    text-align: center; /* texto centralizado */
-    padding: 0 20px; /
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
 }
 
 h1, h2, h3{
