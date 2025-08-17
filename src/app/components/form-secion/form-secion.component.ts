@@ -8,14 +8,5 @@ import { Component } from '@angular/core';
 })
 
 export class FormSecionComponent {
-  taskTitle: string = '';
-
-  addTask() {
-    if (this.taskTitle.trim() === '') {
-      return;
-    }
-  }
-
   
-
 }
