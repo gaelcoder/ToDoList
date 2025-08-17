@@ -1,7 +1,6 @@
-export interface Task {
-    id?: number;
+export interface task{
+    id: number;
     title: string;
     description: string;
-    deadline: Date;
-    createdAt?: Date;
+    completed: boolean;
 }
