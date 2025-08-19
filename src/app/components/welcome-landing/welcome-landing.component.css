@@ -37,3 +37,19 @@ h1, h2, h3{
 .textblock h1{
     margin-right: 4.7em;
 }
+
+@keyframes wobble {
+    0% {margin-top: 5px}
+    25% {margin-top: 10px}
+    50% {margin-top: 15px}
+    75% {margin-top: 20px}
+    100% {margin-top: 25px}
+}
+
+.material-symbols-outlined {
+  color: aliceblue;
+  animation-name: wobble;
+  animation-duration: 0.6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}

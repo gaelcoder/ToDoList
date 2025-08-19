@@ -1,4 +1,4 @@
-#form-area{
+#double-container{
     background-color: #e9decb;
     width: 100vw;
     height: 100vh;
@@ -10,14 +10,73 @@
     align-items: center;
 }
 
+@media (min-width: 768px) {
+  #double-container {
+    flex-direction: row;
+  }
+
+  #double-container section{
+    margin: auto;
+  }
+}
+
 #taskForm{
     background-color: aliceblue;
     width: 20rem;
     height: 30rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 
 #taskForm .form-group label, input, textarea, button{
     font-family: "Oswald", sans-serif;
+}
+
+#taskForm input{
+    font-size: 14px;
+    width: 19em;
+}
+
+#taskForm textarea{
+    width: 20em;
+    height: 10em;
+    resize: none;
+}
+
+#taskForm div{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+#taskForm select{
+    width: 20.3em;
+    height: 2em;
+}
+.form-group .error-message{
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: -20px;
+}
+
+#taskForm button{
+    width: 14em;
+    height: 3em;
+    background-color: rgb(113, 143, 30);
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+h4{
+    font-family: "Oswald", sans-serif;
+    color:rgb(12, 11, 14);
+    margin-bottom: 2px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 20px;
 }
 
 h1{
